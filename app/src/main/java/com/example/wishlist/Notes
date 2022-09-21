@@ -1,0 +1,45 @@
+RecyclerView
+Is Android's way of displaying a list of data.
+The forever scrolling implementation
+GridLayout, LinearLayout...
+
+What do we need to make this work?
+The data. What does each list item contain?
+The layout
+Bridge between layout and data. Something to tell our app how to populate the layout with the data
+
+sp for text
+dp for layout
+writing tools:text="" instead of android:text="" gives you a preview
+Making xml files for data objects. Change the dimension on the primary nesting code
+from match-parent, because it will take up the entire screen
+
+Adapter class is the bridge
+
+//In Main activity
+onClick(v: View!) {
+       // do something
+}
+It'll show up on the declared attribute tab on the design part of an xml file/editor
+Which is a good place to observe characteristics of
+
+Initialising variables, Kotlin, an example:
+val s: String
+val i: Integer
+init {
+    s = "Sike is awesome"
+    i = 20
+}
+t: String = "Sike is cool"
+Type declaration by colon
+
+For Kotlin, there are lists and there are mutable lists.
+Just as there are vals and vars
+
+//XML values for TextView
+ android:lines="1"
+ android:ellipsize="end"
+
+
+
+
